@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center items-center text-center scroll-mt-28 relative overflow-hidden select-none group/hero py-24 px-4 bg-[#020806]"
+      className="min-h-screen flex flex-col justify-center items-center text-center scroll-mt-28 relative overflow-hidden select-none group/hero py-24 px-4 bg-black"
     >
       {/* Premium Keyframe & Typography */}
       <style
@@ -49,15 +49,15 @@ const Home = () => {
       />
 
       {/* Background Grid Overlay */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#10b98105_1px,transparent_1px),linear-gradient(to_bottom,#10b98105_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_70%_60%_at_50%_50%,#000_70%,transparent_100%)] pointer-events-none z-0 opacity-80" />
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#10b98110_1px,transparent_1px),linear-gradient(to_bottom,#10b98110_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_70%_60%_at_50%_50%,#000_70%,transparent_100%)] pointer-events-none z-0 opacity-70" />
 
       {/* Gradient Flare Effects */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] sm:w-[850px] h-[500px] sm:h-[850px] bg-gradient-to-tr from-emerald-600/10 via-teal-900/10 to-transparent rounded-full blur-[160px] pointer-events-none z-0 mix-blend-screen transition-all duration-1000 group-hover/hero:scale-105" />
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] sm:w-[850px] h-[500px] sm:h-[850px] bg-gradient-to-tr from-emerald-600/20 via-teal-900/20 to-transparent rounded-full blur-[160px] pointer-events-none z-0 mix-blend-screen transition-all duration-1000 group-hover/hero:scale-105" />
       <div
-        className="absolute bottom-1/4 right-1/4 translate-x-1/4 w-[400px] sm:w-[650px] h-[400px] sm:h-[650px] bg-amber-500/5 rounded-full blur-[150px] pointer-events-none z-0 mix-blend-screen opacity-70"
+        className="absolute bottom-1/4 right-1/4 translate-x-1/4 w-[400px] sm:w-[650px] h-[400px] sm:h-[650px] bg-amber-500/10 rounded-full blur-[150px] pointer-events-none z-0 mix-blend-screen opacity-80"
         style={{ animation: "pulseGlow 7s ease-in-out infinite" }}
       />
-      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[300px] h-[300px] bg-emerald-500/5 rounded-full blur-[120px] pointer-events-none z-0" />
+      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[300px] h-[300px] bg-emerald-500/10 rounded-full blur-[120px] pointer-events-none z-0" />
 
       {/* Floating Status Badge */}
       <div className="relative z-10 inline-flex items-center gap-3 px-5 py-2 rounded-full bg-gradient-to-r from-emerald-950/40 via-[#030c08]/90 to-amber-950/20 border border-emerald-500/20 hover:border-emerald-400/40 text-emerald-300 text-[10px] font-bold tracking-[0.25em] uppercase mb-10 shadow-[0_20px_40px_-15px_rgba(0,0,0,0.9),0_0_20px_rgba(16,185,129,0.05)] backdrop-blur-2xl transition-all duration-500 cursor-pointer group/badge animate-ultra-fade animate-luxury-float">
@@ -77,7 +77,7 @@ const Home = () => {
             className="absolute inset-0 w-full h-full bg-gradient-to-tr from-emerald-400 via-transparent to-amber-300 opacity-40 mix-blend-screen pointer-events-none"
             style={{ animation: "infiniteSpin 12s linear infinite" }}
           />
-          <div className="relative w-full h-full rounded-full overflow-hidden bg-[#030c08] border border-emerald-950 z-10">
+          <div className="relative w-full h-full rounded-full overflow-hidden bg-black border border-emerald-950 z-10">
             <img
               src="/image/sivu.jpeg"
               alt="Sivakami A Portrait"
@@ -87,10 +87,10 @@ const Home = () => {
               className="absolute left-0 right-0 h-[1.5px] bg-gradient-to-r from-transparent via-emerald-400 via-amber-200 to-transparent pointer-events-none shadow-[0_0_8px_#34d399]"
               style={{ animation: "precisionScan 4s cubic-bezier(0.4, 0, 0.2, 1) infinite" }}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#020806]/80 via-transparent to-transparent pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none" />
           </div>
         </div>
-        <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 flex items-center gap-1.5 text-[8px] font-mono font-bold tracking-[0.3em] text-emerald-400/80 bg-[#030c08]/95 px-3 py-1 rounded-md border border-emerald-500/20 shadow-xl backdrop-blur-md">
+        <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 flex items-center gap-1.5 text-[8px] font-mono font-bold tracking-[0.3em] text-emerald-400/80 bg-black/95 px-3 py-1 rounded-md border border-emerald-500/20 shadow-xl backdrop-blur-md">
           <span className="w-1 h-1 rounded-full bg-emerald-400 animate-pulse" />
           <span>SYS.ENG://SIVAKAMI</span>
         </div>
